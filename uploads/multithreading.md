@@ -18,4 +18,5 @@ From the software standpoint, hardware support for multithreading is more visibl
 
 Merging data from two processes can often incur significantly higher costs compared to processing the same data on a single thread, potentially by two or more orders of magnitude due to overheads such as inter-process communication and synchronization.
 
+
 Reference: https://en.wikipedia.org/wiki/Multithreading_(computer_architecture)
