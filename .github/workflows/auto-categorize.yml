@@ -21,3 +21,10 @@ jobs:
           categories: "Python,JavaScript,DevOps,Database,Etc"
           uploads_dir: "uploads"
           docs_dir: "docs"
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .
+          git commit -m "Auto categorization" || echo "No changes to commit"
+          git push
