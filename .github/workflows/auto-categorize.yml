@@ -1,0 +1,20 @@
+name: Auto Categorize Markdown
+on:
+  push:
+    paths:
+      - "uploads/*.md"
+
+jobs:
+  categorize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Use Smart Composer
+        uses: FacerAin/smart-composer@v0.1
+        with:
+          openai_api_key: ${{ secrets.OPENAI_API_KEY }}
+          categories: "Python,JavaScript,DevOps,Database,Etc"
+          uploads_dir: "uploads"
+          docs_dir: "docs"
