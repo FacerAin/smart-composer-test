@@ -4,6 +4,7 @@ Test repository for [smart composer](https://github.com/FacerAin/smart-composer)
 <!-- START DOCS LIST -->
 ### Etc
 
+- [javascript-intro.md](docs/Etc/javascript-intro.md)
 - [javascript.md](docs/Etc/javascript.md)
 - [multithreading.md](docs/Etc/multithreading.md)
 
