@@ -18,7 +18,7 @@ jobs:
         uses: FacerAin/smart-composer@v0.1.4
         with:
           openai_api_key: ${{ secrets.OPENAI_API_KEY }}
-          categories: "Python,JavaScript,DevOps,Database,Etc"
+          categories: "Python,Java,Network,Algorithm,Cloud,Database,Machine Learning,Design Pattern,Etc"
           uploads_pattern: "uploads/*.md"
           docs_dir: "docs"
       - name: Commit changes
