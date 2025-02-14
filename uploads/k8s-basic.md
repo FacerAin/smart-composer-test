@@ -106,3 +106,4 @@ rollout	배포와 관련된 작업을 수행합니다. (예: rollout status, rol
 apply --prune	적용 후 존재하지 않는 리소스를 삭제합니다.
 top	클러스터의 리소스 사용량을 보여줍니다. (CPU, 메모리 등)
 version	kubectl 및 클러스터 버전을 확인합니다.
+
